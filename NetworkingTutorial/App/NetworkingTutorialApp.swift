@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct NetworkingTutorialApp: App {
+//    @State var viewModel = CoinsViewModel(service: CoinDataService())
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(service: CoinDataService())
+            
+//            ContentView()
+//                .environment(viewModel)
         }
     }
 }

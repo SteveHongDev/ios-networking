@@ -7,21 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		490BCC2F2B45028C006ED4ED /* CoinDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BCC2E2B45028C006ED4ED /* CoinDetailsView.swift */; };
+		493C336D2B43ED0C002EACAC /* CoinAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493C336C2B43ED0C002EACAC /* CoinAPIError.swift */; };
+		494C82542B450D76005BAC26 /* CoinDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C82532B450D76005BAC26 /* CoinDetails.swift */; };
+		494C82572B452687005BAC26 /* CoinDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C82562B452687005BAC26 /* CoinDetailsViewModel.swift */; };
+		494C825B2B454DC7005BAC26 /* HTTPDataDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C825A2B454DC7005BAC26 /* HTTPDataDownloader.swift */; };
+		494C825E2B455867005BAC26 /* CoinDetailsCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C825D2B455867005BAC26 /* CoinDetailsCache.swift */; };
+		494C82602B458157005BAC26 /* MockCoinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C825F2B458157005BAC26 /* MockCoinService.swift */; };
+		494C82682B461A80005BAC26 /* NetworkingTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C82672B461A80005BAC26 /* NetworkingTutorialTests.swift */; };
+		494C826F2B461B1C005BAC26 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C826E2B461B1C005BAC26 /* TestData.swift */; };
+		49664ED32B4621D70084C358 /* CoinsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49664ED22B4621D70084C358 /* CoinsViewModelTests.swift */; };
+		49664ED42B4624130084C358 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C826E2B461B1C005BAC26 /* TestData.swift */; };
+		49664ED72B46334C0084C358 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49664ED62B46334C0084C358 /* ImageLoader.swift */; };
+		49664ED92B46335B0084C358 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49664ED82B46335B0084C358 /* ImageCache.swift */; };
+		49664EDD2B4633800084C358 /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49664EDC2B4633800084C358 /* CoinImageView.swift */; };
+		498F6AE62B43CEE2005EDEA7 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498F6AE52B43CEE2005EDEA7 /* CoinDataService.swift */; };
+		498F6AE82B43DB10005EDEA7 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498F6AE72B43DB10005EDEA7 /* Coin.swift */; };
 		49DDA73C2B429DA300B03B54 /* NetworkingTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DDA73B2B429DA300B03B54 /* NetworkingTutorialApp.swift */; };
 		49DDA73E2B429DA300B03B54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DDA73D2B429DA300B03B54 /* ContentView.swift */; };
 		49DDA7402B429DA400B03B54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49DDA73F2B429DA400B03B54 /* Assets.xcassets */; };
 		49DDA7432B429DA400B03B54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49DDA7422B429DA400B03B54 /* Preview Assets.xcassets */; };
+		49DDA7502B42B1A700B03B54 /* CoinsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DDA74F2B42B1A700B03B54 /* CoinsViewModel.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		494C82692B461A80005BAC26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49DDA7302B429DA300B03B54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49DDA7372B429DA300B03B54;
+			remoteInfo = NetworkingTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		490BCC2E2B45028C006ED4ED /* CoinDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailsView.swift; sourceTree = "<group>"; };
+		493C336C2B43ED0C002EACAC /* CoinAPIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinAPIError.swift; sourceTree = "<group>"; };
+		494C82532B450D76005BAC26 /* CoinDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetails.swift; sourceTree = "<group>"; };
+		494C82562B452687005BAC26 /* CoinDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailsViewModel.swift; sourceTree = "<group>"; };
+		494C825A2B454DC7005BAC26 /* HTTPDataDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPDataDownloader.swift; sourceTree = "<group>"; };
+		494C825D2B455867005BAC26 /* CoinDetailsCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailsCache.swift; sourceTree = "<group>"; };
+		494C825F2B458157005BAC26 /* MockCoinService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCoinService.swift; sourceTree = "<group>"; };
+		494C82652B461A80005BAC26 /* NetworkingTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkingTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		494C82672B461A80005BAC26 /* NetworkingTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingTutorialTests.swift; sourceTree = "<group>"; };
+		494C826E2B461B1C005BAC26 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		49664ED22B4621D70084C358 /* CoinsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsViewModelTests.swift; sourceTree = "<group>"; };
+		49664ED62B46334C0084C358 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		49664ED82B46335B0084C358 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		49664EDC2B4633800084C358 /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
+		498F6AE52B43CEE2005EDEA7 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
+		498F6AE72B43DB10005EDEA7 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 		49DDA7382B429DA300B03B54 /* NetworkingTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkingTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DDA73B2B429DA300B03B54 /* NetworkingTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingTutorialApp.swift; sourceTree = "<group>"; };
 		49DDA73D2B429DA300B03B54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		49DDA73F2B429DA400B03B54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49DDA7422B429DA400B03B54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49DDA74F2B42B1A700B03B54 /* CoinsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		494C82622B461A80005BAC26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		49DDA7352B429DA300B03B54 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -32,10 +83,100 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		490BCC2C2B450268006ED4ED /* CoinDetails */ = {
+			isa = PBXGroup;
+			children = (
+				494C825C2B45585E005BAC26 /* Cache */,
+				494C82552B45267B005BAC26 /* ViewModel */,
+				494C82522B450D6F005BAC26 /* Model */,
+				490BCC2D2B45027D006ED4ED /* View */,
+			);
+			path = CoinDetails;
+			sourceTree = "<group>";
+		};
+		490BCC2D2B45027D006ED4ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				490BCC2E2B45028C006ED4ED /* CoinDetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		494C82522B450D6F005BAC26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				494C82532B450D76005BAC26 /* CoinDetails.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		494C82552B45267B005BAC26 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				494C82562B452687005BAC26 /* CoinDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		494C82582B454DAE005BAC26 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				49664ED52B4633340084C358 /* Images */,
+				494C82592B454DB3005BAC26 /* API */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		494C82592B454DB3005BAC26 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				494C825A2B454DC7005BAC26 /* HTTPDataDownloader.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		494C825C2B45585E005BAC26 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				494C825D2B455867005BAC26 /* CoinDetailsCache.swift */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		494C82662B461A80005BAC26 /* NetworkingTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				494C82672B461A80005BAC26 /* NetworkingTutorialTests.swift */,
+				494C826E2B461B1C005BAC26 /* TestData.swift */,
+				49664ED22B4621D70084C358 /* CoinsViewModelTests.swift */,
+			);
+			path = NetworkingTutorialTests;
+			sourceTree = "<group>";
+		};
+		49664ED52B4633340084C358 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				49664ED62B46334C0084C358 /* ImageLoader.swift */,
+				49664ED82B46335B0084C358 /* ImageCache.swift */,
+				49664EDC2B4633800084C358 /* CoinImageView.swift */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		498F6AE42B43CED9005EDEA7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				498F6AE52B43CEE2005EDEA7 /* CoinDataService.swift */,
+				494C825F2B458157005BAC26 /* MockCoinService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		49DDA72F2B429DA300B03B54 = {
 			isa = PBXGroup;
 			children = (
 				49DDA73A2B429DA300B03B54 /* NetworkingTutorial */,
+				494C82662B461A80005BAC26 /* NetworkingTutorialTests */,
 				49DDA7392B429DA300B03B54 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				49DDA7382B429DA300B03B54 /* NetworkingTutorial.app */,
+				494C82652B461A80005BAC26 /* NetworkingTutorialTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +193,9 @@
 		49DDA73A2B429DA300B03B54 /* NetworkingTutorial */ = {
 			isa = PBXGroup;
 			children = (
-				49DDA73B2B429DA300B03B54 /* NetworkingTutorialApp.swift */,
-				49DDA73D2B429DA300B03B54 /* ContentView.swift */,
+				49DDA7492B429DE200B03B54 /* App */,
+				49DDA74A2B429DED00B03B54 /* Core */,
+				494C82582B454DAE005BAC26 /* Shared */,
 				49DDA73F2B429DA400B03B54 /* Assets.xcassets */,
 				49DDA7412B429DA400B03B54 /* Preview Content */,
 			);
@@ -67,9 +210,80 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		49DDA7492B429DE200B03B54 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				49DDA73B2B429DA300B03B54 /* NetworkingTutorialApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		49DDA74A2B429DED00B03B54 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				49DDA74B2B429DF100B03B54 /* AllCoins */,
+				490BCC2C2B450268006ED4ED /* CoinDetails */,
+				498F6AE42B43CED9005EDEA7 /* Service */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		49DDA74B2B429DF100B03B54 /* AllCoins */ = {
+			isa = PBXGroup;
+			children = (
+				49DDA74E2B429E0000B03B54 /* Models */,
+				49DDA74D2B429DFE00B03B54 /* Views */,
+				49DDA74C2B429DFB00B03B54 /* ViewModels */,
+			);
+			path = AllCoins;
+			sourceTree = "<group>";
+		};
+		49DDA74C2B429DFB00B03B54 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				49DDA74F2B42B1A700B03B54 /* CoinsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		49DDA74D2B429DFE00B03B54 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49DDA73D2B429DA300B03B54 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		49DDA74E2B429E0000B03B54 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				498F6AE72B43DB10005EDEA7 /* Coin.swift */,
+				493C336C2B43ED0C002EACAC /* CoinAPIError.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		494C82642B461A80005BAC26 /* NetworkingTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494C826B2B461A80005BAC26 /* Build configuration list for PBXNativeTarget "NetworkingTutorialTests" */;
+			buildPhases = (
+				494C82612B461A80005BAC26 /* Sources */,
+				494C82622B461A80005BAC26 /* Frameworks */,
+				494C82632B461A80005BAC26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				494C826A2B461A80005BAC26 /* PBXTargetDependency */,
+			);
+			name = NetworkingTutorialTests;
+			productName = NetworkingTutorialTests;
+			productReference = 494C82652B461A80005BAC26 /* NetworkingTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		49DDA7372B429DA300B03B54 /* NetworkingTutorial */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49DDA7462B429DA400B03B54 /* Build configuration list for PBXNativeTarget "NetworkingTutorial" */;
@@ -97,6 +311,10 @@
 				LastSwiftUpdateCheck = 1510;
 				LastUpgradeCheck = 1510;
 				TargetAttributes = {
+					494C82642B461A80005BAC26 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 49DDA7372B429DA300B03B54;
+					};
 					49DDA7372B429DA300B03B54 = {
 						CreatedOnToolsVersion = 15.1;
 					};
@@ -116,11 +334,19 @@
 			projectRoot = "";
 			targets = (
 				49DDA7372B429DA300B03B54 /* NetworkingTutorial */,
+				494C82642B461A80005BAC26 /* NetworkingTutorialTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		494C82632B461A80005BAC26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		49DDA7362B429DA300B03B54 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,18 +359,86 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		494C82612B461A80005BAC26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49664ED32B4621D70084C358 /* CoinsViewModelTests.swift in Sources */,
+				494C82682B461A80005BAC26 /* NetworkingTutorialTests.swift in Sources */,
+				494C826F2B461B1C005BAC26 /* TestData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		49DDA7342B429DA300B03B54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49664ED92B46335B0084C358 /* ImageCache.swift in Sources */,
+				49664ED72B46334C0084C358 /* ImageLoader.swift in Sources */,
+				494C82602B458157005BAC26 /* MockCoinService.swift in Sources */,
+				490BCC2F2B45028C006ED4ED /* CoinDetailsView.swift in Sources */,
+				494C825E2B455867005BAC26 /* CoinDetailsCache.swift in Sources */,
+				49664EDD2B4633800084C358 /* CoinImageView.swift in Sources */,
+				494C82572B452687005BAC26 /* CoinDetailsViewModel.swift in Sources */,
+				49664ED42B4624130084C358 /* TestData.swift in Sources */,
+				493C336D2B43ED0C002EACAC /* CoinAPIError.swift in Sources */,
+				498F6AE62B43CEE2005EDEA7 /* CoinDataService.swift in Sources */,
+				494C825B2B454DC7005BAC26 /* HTTPDataDownloader.swift in Sources */,
+				494C82542B450D76005BAC26 /* CoinDetails.swift in Sources */,
 				49DDA73E2B429DA300B03B54 /* ContentView.swift in Sources */,
+				49DDA7502B42B1A700B03B54 /* CoinsViewModel.swift in Sources */,
+				498F6AE82B43DB10005EDEA7 /* Coin.swift in Sources */,
 				49DDA73C2B429DA300B03B54 /* NetworkingTutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		494C826A2B461A80005BAC26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49DDA7372B429DA300B03B54 /* NetworkingTutorial */;
+			targetProxy = 494C82692B461A80005BAC26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		494C826C2B461A80005BAC26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X726R6A26M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevehong.NetworkingTutorialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetworkingTutorial.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NetworkingTutorial";
+			};
+			name = Debug;
+		};
+		494C826D2B461A80005BAC26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X726R6A26M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevehong.NetworkingTutorialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetworkingTutorial.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NetworkingTutorial";
+			};
+			name = Release;
+		};
 		49DDA7442B429DA400B03B54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -325,6 +619,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		494C826B2B461A80005BAC26 /* Build configuration list for PBXNativeTarget "NetworkingTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494C826C2B461A80005BAC26 /* Debug */,
+				494C826D2B461A80005BAC26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		49DDA7332B429DA300B03B54 /* Build configuration list for PBXProject "NetworkingTutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
